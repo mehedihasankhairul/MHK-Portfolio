@@ -47,7 +47,7 @@ const MySkills = () => {
     const [skills, setSkills] = useState([])
     useEffect(() => {
         const selectSkill = allSkill.filter(skill => {
-            return skill.type === 'web'
+            return skill.type === 'allSkills'
         })
         setSkills(selectSkill)
     }, [])
@@ -62,11 +62,12 @@ const MySkills = () => {
                 <h2 className="text-center">My Skills</h2>
                 <div className='button-container'>
 
-                    <NavLink activeStyle={active} exact to="/" className="skills-button" onClick={() => changeShowSkills('allSkills')}>All Skills</NavLink>
-                    <NavLink activeStyle={active} exact to="/web" className="skills-button" onClick={() => changeShowSkills('web')}>Web</NavLink>
+                   
+                    <NavLink activeStyle={active} exact to="/allSkills" className="skills-button" onClick={() => changeShowSkills('allSkills')}>All Skills</NavLink>
+                    <NavLink activeStyle={active} exact to="/web" className="skills-button" onClick={() => changeShowSkills('web')}>Web Development</NavLink>
                     <NavLink activeStyle={active} to="/programming" className="skills-button" onClick={() => changeShowSkills('programming')}>Programming</NavLink>
-                    <NavLink activeStyle={active} to="/others" className="skills-button" onClick={() => changeShowSkills('others')}>Others</NavLink>
                     <NavLink activeStyle={active} to="/tools" className="skills-button" onClick={() => changeShowSkills('tools')}>Tools</NavLink>
+                    <NavLink activeStyle={active} to="/others" className="skills-button" onClick={() => changeShowSkills('others')}>Others</NavLink>
                 </div>
                 <Grid container>
                     {
