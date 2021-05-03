@@ -19,7 +19,7 @@ const Header = () => {
                             <h1 className="banner-name">MeHeDi HaSaN Khairul</h1>
                                <TextAnimation></TextAnimation>
                             <p className="banner-text">Hello there, Welcome to my Profile. a Junior MERN Stack Web Developer.</p>
-                            <a href="https://drive.google.com/uc?export=download&id=1eUvphegNNU-4YWLSw6HIe-vj9isQICKn" target='_blank' rel="noreferrer" className="resume-button">Get Resume  <FontAwesomeIcon icon={faDownload} /></a>
+                            <a href="https://drive.google.com/file/d/1RJU8Cs_CA2NzemfvoCvxiYtrukXZ4fzx/view?usp=sharing" target='_blank' rel="noreferrer" className="resume-button">Get Resume  <FontAwesomeIcon icon={faDownload} /></a>
                         </div>
                     </Grid>
                 </Box>
