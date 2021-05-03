@@ -32,6 +32,7 @@ form {
     text-decoration: none;
     line-height: 60px;
     padding: 0 30px 0 30px;
+    font-weight: 400;
     border-radius: 43.5px;
     background-color: #252734;
     border: 1px solid  rgb(59, 61, 73);
@@ -45,7 +46,8 @@ form {
 
 .send-message-btn:hover, .send-message-btn:focus {
     border: 1px solid #fff;
-    background-color: #2E303D;
+    background-color: #ff4a57;
+    font-weight: 300;
 }
 
 .form-control:hover, .form-control:focus {

@@ -5,7 +5,7 @@ const NotFound = () => {
     return (
         <section style={{marginTop: '50px'}}>
             <Typography variant="h2" color="secondary" align="center">
-                Opps 404
+                OPPS 404
             </Typography>
             <Typography variant="h4" color="secondary" align="center">
                 Page Not Found
