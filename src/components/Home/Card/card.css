@@ -1,0 +1,25 @@
+.technology span {
+    background: #4b5769;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    height: 26px;
+}
+.img-animation figure{
+    overflow: hidden;
+}
+.img-animation figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img-animation:hover figure img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.img-animation:hover{
+    box-shadow: 5px 5px 30px 20px #b40000;
+}

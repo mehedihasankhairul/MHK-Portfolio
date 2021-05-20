@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import ColorMe from '../../../images/ColorMe.JPG';
-import halalshop from '../../../images/halal-valley.JPG';
+import halalShop from '../../../images/halal-valley.JPG';
 import teslaRider from '../../../images/tesla.JPG'
 
 
@@ -19,32 +19,32 @@ const portfolio = [
         feature2: 'Admin can change status and delete order also make an admin',
         feature3: 'a user check his order and make a review from review section',
         technology: 'React Js, Node Js, MongoDB, Express Js,  Firebase Authentication',
-        liveSite: '',
-        Github: '',
+        liveSite: 'https://service-center-cf745.web.app',
+        Github: 'https://github.com/mehedihasankhairul/ColorMe-Client',
        
     },
     {
-        img: halalshop,
+        img: halalShop,
         title: 'Halal Valley Shop | a E-commerce Web application',
         subtitle: 'This is a grocery shop. You can shop your daily needs',
         feature1: 'A user can add product to add cart and make them order. ',
         feature2: 'Admin can change status and delete order also admin make an admin',
         feature3: 'a user check his order and delete his order',
         technology: 'React Js, Node Js, MongoDB, Express Js,  Firebase Authentication',
-        liveSite: '',
-        Github: '',
+        liveSite: 'https://halal-valley.web.app/',
+        Github: 'https://github.com/mehedihasankhairul/Halal-Valley-Shop-Client',
        
     },
     {
-        img: halalshop,
-        title: 'Halal Valley Shop | a E-commerce Web application',
-        subtitle: 'This is a grocery shop. You can shop your daily needs',
-        feature1: 'A user can add product to add cart and make them order. ',
-        feature2: 'Admin can change status and delete order also admin make an admin',
-        feature3: 'a user check his order and delete his order',
-        technology: 'React Js, Node Js, MongoDB, Express Js,  Firebase Authentication',
-        liveSite: '',
-        Github: '',
+        img: teslaRider,
+        title: 'Tesla Rider | E-Ticket Web application',
+        subtitle: 'This is a Ticket Booking Web applications',
+        feature1: 'User can select a category like Bus, Train, Bike, Private car. ',
+        feature2: 'See a map to select his destinations',
+        feature3: 'Book a ticket super easily',
+        technology: 'React Js, Firebase Authentication',
+        liveSite: 'https://tesla-rider.web.app/',
+        Github: 'https://github.com/mehedihasankhairul',
     },
 ]
 
@@ -67,10 +67,10 @@ const Project = () => {
                                             aria-controls="panel1a-content"
                                             id="panel1a-header"
                                         >
-                                            View Details
+                                            See More
                                         </AccordionSummary>
                                         <AccordionDetails>
-                                            <h3>Overview: </h3>
+                                            <h3>Details: </h3>
                                         </AccordionDetails>
                                         <AccordionDetails>
                                             <p>1. {item.feature1}</p>

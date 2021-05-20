@@ -17,7 +17,7 @@ const App = () => {
       <Sidebar show={toggleSlide} click={() => setToggleSlide(false)} />
         <Switch>
           <Route path="/">
-            <Home />
+            <Home/>
           </Route>
           <Route path="/about">
 

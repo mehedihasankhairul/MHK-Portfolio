@@ -11,7 +11,7 @@ const Sidebar = ({ show, click }) => {
         sideDrawerClass.push('show')
     }
     return (
-        <div className={`${sideDrawerClass.join(' ')}`} style={{zIndex: '10000'}}>
+        <div className={`${sideDrawerClass.join(' ')}`} style={{ zIndex: '10000' }}>
             <div className="cross-btn" onClick={click}>
                 <FontAwesomeIcon icon={faTimes} />
             </div>
@@ -23,9 +23,9 @@ const Sidebar = ({ show, click }) => {
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className="menu-icons">
-                <a href='https://www.facebook.com/profile.php?id=100018966190023' target="_blank" rel="noreferrer" className="menu-icon"><FontAwesomeIcon className="s-icon" icon={faFacebookF} /></a>
-                <a href="https://www.linkedin.com/in/md-rakib-3666891b2/" className="menu-icon" target="_blank" rel="noreferrer"><FontAwesomeIcon className="s-icon" icon={faLinkedinIn} /></a>
-                <a href="https://github.com/Rakib544" target="_blank" rel="noreferrer" className="menu-icon" to="/"> <FontAwesomeIcon className="s-icon" icon={faGithub} /></a>
+                <a href='https://www.facebook.com/mahedihasan.khairu' target="_blank" rel="noreferrer" className="menu-icon"><FontAwesomeIcon className="s-icon" icon={faFacebookF} /></a>
+                <a href="https://www.linkedin.com/in/mhkhairul/" className="menu-icon" target="_blank" rel="noreferrer"><FontAwesomeIcon className="s-icon" icon={faLinkedinIn} /></a>
+                <a href="https://github.com/mehedihasankhairul" target="_blank" rel="noreferrer" className="menu-icon" to="/"> <FontAwesomeIcon className="s-icon" icon={faGithub} /></a>
             </div>
         </div>
     );

@@ -13,7 +13,11 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
+    
 }
+/* .project-container > img :hover{
+    color: brown;
+} */
 
 .project-container > h2 {
     font-size: 18px;
@@ -32,6 +36,7 @@
     font-size: 25px;
     display: inline-block;
     margin-right: 10px;
+    position: relative;
 }
 
 @media (max-width: 960px) {

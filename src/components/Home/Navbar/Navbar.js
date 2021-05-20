@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ click }) => {
     const [changeNavColor, setChangeNavColor] = useState(false)
@@ -16,7 +17,7 @@ const Navbar = ({ click }) => {
     return (
         <nav className={changeNavColor ? 'navbar-active' : 'navbar'}>
             <div className="navbar-link">
-                <h2>MHK</h2>
+                <a href ="#about"><h2>MHK</h2></a>
             </div>
             <ul className="navbar-links">
                 <li><a href="#about">About</a></li>
