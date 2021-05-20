@@ -10,19 +10,19 @@ const Footer = () => {
     return (
         <footer>
             <div className=".justify-content-center">
-                <ul style={{ marginLeft: "80px" }} className="header__ul mt-2">
-                    <li>
-                        <a href="https://www.facebook.com/mahedihasan.khairul"> <FaFacebookF className="headerIcon" /> </a>
+                <ul style={{ justifyContent: 'center',}} className="header__ul" >
+                    <li style= {{margin: '5px'}}>
+                        <a style={{color: "white"}} href="https://www.facebook.com/mahedihasan.khairul"> <FaFacebookF className="headerIcon" /> </a>
                     </li>
-                    <li>
-                        <a href="https://github.com/mehedihasankhairul"> <FaGithub className="headerIcon" /> </a>
+                    <li style= {{margin: '5px'}}>
+                        <a style={{color: "white"}} href="https://github.com/mehedihasankhairul"> <FaGithub className="headerIcon" /> </a>
                     </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/mhkhairul/"> <FaLinkedin className="headerIcon" /> </a>
+                    <li style= {{margin: '5px'}}>
+                        <a style={{color: "white"}} href="https://www.linkedin.com/in/mhkhairul/"> <FaLinkedin className="headerIcon" /> </a>
                     </li>
                 </ul>
 
-                <p> all right reserved | MeHeDi HaSaN Khairul</p>
+                <p>Copyright | <span style= {{fontWeight: 500,}}>MeHeDi HaSaN Khairul</span> </p>
             </div>
         </footer>
     );

@@ -7,6 +7,8 @@ const TextAnimation = () => {
 		<div >
 			<Typical
 				steps={[
+					'JavaScript Developer',
+					1500,
 					'Web Developer',
 					1500,
 					'MERN Stack developer',

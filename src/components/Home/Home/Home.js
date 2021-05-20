@@ -1,5 +1,5 @@
 import React from 'react';
-import Blog from '../Blog/Blog';
+import Blog from '../Blog/Blogs';
 import ContactMe from '../ContactMe/ContactMe';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
